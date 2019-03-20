@@ -14,9 +14,6 @@ public class InfluxDBMapperShowcase {
     private static final Logger LOGGER = Logger.getLogger(InfluxDBMapperShowcase.class.getName());
 
     public static void main(String[] args) {
-
-        LOGGER.info("Test it");
-
         InfluxDB influxDB = InfluxDBFactory.connect("http://localhost:8086", "root", "root");
 
         InfluxDBMapper influxDBMapper = new InfluxDBMapper(influxDB);

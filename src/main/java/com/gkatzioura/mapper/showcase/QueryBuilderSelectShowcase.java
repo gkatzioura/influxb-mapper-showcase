@@ -9,6 +9,7 @@ import org.influxdb.dto.Query;
 import org.influxdb.dto.QueryResult;
 import org.influxdb.impl.InfluxDBMapper;
 
+import static com.gkatzioura.mapper.showcase.ShowCaseConstants.DATABASE;
 import static org.influxdb.querybuilder.BuiltQuery.QueryBuilder.cop;
 import static org.influxdb.querybuilder.BuiltQuery.QueryBuilder.eq;
 import static org.influxdb.querybuilder.BuiltQuery.QueryBuilder.gt;
@@ -21,8 +22,6 @@ import static org.influxdb.querybuilder.Operations.MUL;
 import static org.influxdb.querybuilder.time.DurationLiteral.DAY;
 
 public class QueryBuilderSelectShowcase {
-
-    private static final String DATABASE = "NOAA_water_database";
 
     private static final Logger LOGGER = Logger.getLogger(QueryBuilderSelectShowcase.class.getName());
 

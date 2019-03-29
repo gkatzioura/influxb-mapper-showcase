@@ -6,7 +6,6 @@ import java.util.logging.Logger;
 
 import org.influxdb.InfluxDB;
 import org.influxdb.InfluxDBFactory;
-import org.influxdb.impl.InfluxDBImpl;
 import org.influxdb.impl.InfluxDBMapper;
 
 public class InfluxDBMapperShowcase {
